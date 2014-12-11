@@ -1,0 +1,33 @@
+{
+  "paths": {
+    "src": "i/oa3/src/*.png",
+    "dest": "i/oa3/dist/sprite.png",
+    "css": "css/less/openair3/sprite.less",
+    "preview": "i/oa3/dist/"
+  },
+  "output": {
+      "img": {
+        "format": "png",
+        "quality": 90,
+        "padding": 2  
+      },
+      "css": {
+        "classname": "sprite",
+        "format": "css",
+        "destination": ""
+      }
+  },
+  "state": {
+    "splitter": "__",
+    "states": [{
+        "state": "normal",
+        "sufix": ""
+    }, {
+        "state": "hover",
+        "sufix": ":hover"
+    }, {
+        "state": "active",
+        "sufix": ":active"
+    }]
+  }
+}
